@@ -13,9 +13,9 @@ import static org.junit.Assert.assertEquals;
 public class TestAutomation {
 
     /* TEST SENARYOLARI:
-    https://webdriveruniversity.com/Contact-Us/contactus.html'de form doldurulması sırasında;
-    1. Data Entry kontrolü (isFilled?)
-    2. Email'de özel karakter kontrolü ("${½$[½")
+    https://parabank.parasoft.com/parabank/register.htm'de form doldurulması sırasında;
+    1. Türkçe karakter kontrolü
+    2. Özel karakter kontrolü ("${½$[½")
      */
     @Test
     public void testUsernameTurkishChars(){
